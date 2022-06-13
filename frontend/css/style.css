@@ -106,9 +106,8 @@ header .container {
   background-size: auto;
   overflow-y: hidden;
   overflow-x: hidden;
-  background-size:cover ;
-  background-repeat:no-repeat;
-  background-attachment: fixed;
+  background-size:100;
+  
   
 }
 

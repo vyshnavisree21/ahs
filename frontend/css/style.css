@@ -104,11 +104,10 @@ header .container {
   left:0;
   right:0;
   bottom:0;
-  background-size: auto;
+  background-size: 100%;
   background-repeat:no-repeat;
   background-attachment: fixed;
-  background-position: 40%;
-    }
+  background-position:100%;    }
 /* BUTTONS */
 
 .btn {

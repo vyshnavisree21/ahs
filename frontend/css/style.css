@@ -30,6 +30,7 @@ body {
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
+  overflow: hidden;
 }
 
 .container {
@@ -107,7 +108,7 @@ header .container {
      min-width:100%;
       min-height:100%;
     z-index:-1;
-    overflow: hidden;
+    
     }
 /* BUTTONS */
 

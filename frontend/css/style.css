@@ -36,8 +36,8 @@ body {
   top:0;
   bottom:0;
   
-  width:fit-content;
-  height:fit-content;
+  width:100;
+  height:100;
   overflow: hidden;
   overflow-x: hidden;
   overflow-y: hidden;

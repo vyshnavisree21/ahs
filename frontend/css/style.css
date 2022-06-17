@@ -60,7 +60,10 @@ header .container {
   gap: 2rem;
   align-items: center;
 }
-
+video{
+  height: fit-content;
+  width: fit-content;
+}
 /* NOT CONNECTED */
 .not-connected {
   align-items: center;

@@ -65,14 +65,14 @@ z-index:-1;
 header {
   background-color: var(--bg-color);
   box-shadow: var(--header-shadow);
-  opacity: .5;
+  opacity: .9;
 }
 
 header .container {
   flex-direction: row;
   justify-content:space-between;
   align-items: right;
-  opacity: .5;
+  opacity: .9;
 }
 
 .menu {

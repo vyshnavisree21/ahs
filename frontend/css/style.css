@@ -69,7 +69,7 @@ header {
 
 header .container {
   flex-direction: row;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: right;
   opacity: 1;
 }
@@ -78,7 +78,7 @@ header .container {
   display: flex;
   gap: 2rem;
   align-items: right;
-  padding-left: 20px;
+  padding-left: 100px;
 }
 
 /* NOT CONNECTED */

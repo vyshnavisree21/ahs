@@ -40,7 +40,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 1rem 2rem;
-  justify-content: right;
+  justify-content: center;
   overflow: hidden;
   opacity: 1;
 }
@@ -76,7 +76,7 @@ header .container {
 .menu {
   display: flex;
   gap: 2rem;
-  align-items: center;
+  align-items: right;
 }
 
 /* NOT CONNECTED */

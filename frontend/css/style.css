@@ -70,7 +70,8 @@ header {
 header .container {
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: right;
+  opacity: 1;
 }
 
 .menu {

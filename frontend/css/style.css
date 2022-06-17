@@ -63,6 +63,7 @@ header .container {
 video{
   height: fit-content;
   width: fit-content;
+  overflow: hidden;
 }
 /* NOT CONNECTED */
 .not-connected {

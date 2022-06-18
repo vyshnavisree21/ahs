@@ -342,6 +342,7 @@ section {
   top: 90px;
   left: 5rem;
   z-index: -1;
+  opacity: .9;
 }
 
 .splide__slide {
@@ -351,6 +352,7 @@ section {
 
 .splide__slide img {
   width: 100%;
+  opacity: .9;
 }
 
 /* SPINNER */

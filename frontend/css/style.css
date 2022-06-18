@@ -30,7 +30,7 @@ body {
   height: 90vh;
   color: var(--font-color);
   font-family: var(--font-primary);
-  overflow: hidden;
+  
   
 }
 

@@ -10,7 +10,7 @@
   --font-code: "Roboto", monospace;
   --bg-color: #00000000;
   --bg-color-transparent: #14080800;
-  --font-color: #ffffff;
+  --font-color: #1892843e;
   --btn-bg-color: #ffffff;
   --accent-color: #38383d93;
   --header-shadow: var(--accent-color) 0px 0px 5px;
@@ -34,7 +34,7 @@ body {
 }
 
 
-.container {s
+.container {
   display: flex;
   flex-direction: column;
   max-width: 960px;
@@ -42,7 +42,7 @@ body {
   padding: 1rem 2rem;
   justify-content: center;
   overflow: hidden;
- ;
+ 
 }
 
 

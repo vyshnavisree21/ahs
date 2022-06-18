@@ -9,7 +9,7 @@
   --font-secondary: "Arvo", serif;
   --font-code: "Roboto", monospace;
   --bg-color: #00000000;
-  --bg-color-transparent: #01010100;
+  --bg-color-transparent: #14080800;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
   --accent-color: #38383d93;
@@ -126,7 +126,7 @@ header .container {
   background: var(--btn-bg-color);
   color: var(--accent-color);
   font-family: var(--font-secondary);
-  font-style: italic;
+  font-style: normal;
   font-weight: bold;
   font-size: 1rem;
   text-align: center;
@@ -139,7 +139,7 @@ header .container {
   outline: none;
 }
 .btn:hover {
-  box-shadow: none;
+  box-shadow:none;
 }
 .btn:disabled {
   cursor: default;

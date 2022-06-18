@@ -2,11 +2,11 @@ let accounts;
 
 // METAMASK CONNECTION
 window.addEventListener("DOMContentLoaded", async () => {
-  const welcomeH1 = document.getElementById("welcomeH1");
+  const welcome_h2 = document.getElementById("welcomeH2");
   const welcomeH2 = document.getElementById("welcomeH2");
   const welcomeP = document.getElementById("welcomeP");
 
-  welcomeH1.innerText = welcome_h1;
+  welcome_h2.innerText = welcome_h2;
   welcomeH2.innerText = welcome_h2;
   welcomeP.innerHTML = welcome_p;
 
@@ -166,7 +166,7 @@ async function loadInfo() {
 
   let startTime = "";
   if (publicMintActive) {
-    mainHeading.innerText = h1_public_mint;
+    mainHeading.innerText = h2_public_mint;
     mainText.innerText = p_public_mint;
     actionButton.classList.add('hidden');
     mintButton.innerText = button_public_mint;
@@ -174,7 +174,7 @@ async function loadInfo() {
     setTotalPrice();
   } else if (presaleMintActive) {
     startTime = window.info.runtimeConfig.publicMintStart;
-    mainHeading.innerText = h1_presale_mint;
+    mainHeading.innerText = h2_presale_mint;
     subHeading.innerText = h2_presale_mint;
     
     try {
@@ -201,7 +201,7 @@ async function loadInfo() {
     setTotalPrice();
   } else {
     startTime = window.info.runtimeConfig.presaleMintStart;
-    mainHeading.innerText = h1_presale_coming_soon;
+    mainHeading.innerText = h2_presale_coming_soon;
     subHeading.innerText = h2_presale_coming_soon;
     mainText.innerText = p_presale_coming_soon;
     actionButton.innerText = button_presale_coming_soon;

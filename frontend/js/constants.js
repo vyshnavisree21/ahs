@@ -1,4 +1,4 @@
-const contractAddress = "0xdde891Fa38DC37d979ED561e1f16569EFD7D0F28"; //Replace with your own contract address
+const contractAddress = "0x84Be169727F2D9cB587DF0A8b838BFF7D2E354F4"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Alien Community!!";

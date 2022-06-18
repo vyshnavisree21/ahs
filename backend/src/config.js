@@ -14,7 +14,7 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 950,
+    growEditionSizeTo: 1,
     layersOrder: [
       
       { name: "Head 1" },
@@ -24,7 +24,7 @@ const layerConfigurations = [
       ],
   }, 
   {
-    growEditionSizeTo: 995,
+    growEditionSizeTo: 2,
     layersOrder: [
       
       { name: "head2" },
@@ -33,7 +33,7 @@ const layerConfigurations = [
       ],
   },   
   {
-    growEditionSizeTo: 1580,
+    growEditionSizeTo: 3,
     layersOrder: [
       
       { name: "head2" },
@@ -43,7 +43,7 @@ const layerConfigurations = [
       ],
   },   
   {
-    growEditionSizeTo: 2960,
+    growEditionSizeTo: 4,
     layersOrder: [
       
       { name: "cyclops" },
@@ -55,7 +55,7 @@ const layerConfigurations = [
       ],
   },   
   {
-    growEditionSizeTo: 3463,
+    growEditionSizeTo: 5,
     layersOrder: [
       
       { name: "cyclops" },    
@@ -65,7 +65,7 @@ const layerConfigurations = [
       ],
   },   
   {
-    growEditionSizeTo: 3580,
+    growEditionSizeTo: 6,
     layersOrder: [
       
       { name: "Head With Jacket 4" },
@@ -74,7 +74,7 @@ const layerConfigurations = [
       ],
   },   
   {
-    growEditionSizeTo: 4282,
+    growEditionSizeTo: 7,
     layersOrder: [
       {name:"gun 5"},
       { name: "head 5" },
@@ -84,7 +84,7 @@ const layerConfigurations = [
       ],
   },   
   {
-    growEditionSizeTo: 4882,
+    growEditionSizeTo: 8,
     layersOrder: [
       
       { name: "head6" },
@@ -95,7 +95,7 @@ const layerConfigurations = [
   }, 
       
   {
-    growEditionSizeTo: 4999,
+    growEditionSizeTo: 9,
     layersOrder: [
       
       { name: "head 7" },
@@ -132,15 +132,15 @@ const CONTRACT_SYMBOL = 'AHS';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x3C0Db464b2817F72e8709B3F81d7C1EF094Ec9E4';
 const TREASURY_ADDRESS = '0x3C0Db464b2817F72e8709B3F81d7C1EF094Ec9E4';
-const MAX_SUPPLY = 4999; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.01; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const MAX_SUPPLY = 9; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MINT_PRICE = 0.07; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 1; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-06-18T10:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-06-19T10:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-06-17T11:00:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-06-18T11:00:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x3C0Db464b2817F72e8709B3F81d7C1EF094Ec9E4"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
@@ -151,7 +151,7 @@ const PRESALE_WHITELISTED_ADDRESSES = ['0x041286cf38935D181352bdd9B17f6DA6B0ca9a
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
-const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
+const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "REPLACE THIS"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeifwfbaol5ji57keps2wyc4leau57temblv5rfw7aqaktzv3c4esq4"; // Replace with your generic image that will display for all NFTs pre-reveal.
@@ -226,7 +226,7 @@ const preview = {
 
 const preview_gif = {
   numberOfImages: 5,
-  order: "ASC", // ASC, DESC, MIXED
+  order: "MIXED", // ASC, DESC, MIXED
   repeat: 0,
   quality: 100,
   delay: 500,

@@ -42,13 +42,13 @@ body {
   margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: center;
-  overflow: hidden;
+  
  
 }
 
 
 .back-video{
-position: FIXED;
+position:absolute;
 top: 0;
 left: 0;
 right: 0;
@@ -58,6 +58,7 @@ height: 90%;
 min-width:100%;
 min-height:100%;
 z-index:-1;
+overflow: hidden;
 }
 
 

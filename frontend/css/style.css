@@ -10,8 +10,8 @@
   --font-code: "Roboto", monospace;
   --bg-color: #00000000;
   --bg-color-transparent: #01010100;
-  --font-color: #000000;
-  --btn-bg-color: #776c6c;
+  --font-color: #ffffff;
+  --btn-bg-color: #ffffff;
   --accent-color: #38383d93;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
@@ -72,7 +72,7 @@ header .container {
   flex-direction: row;
   justify-content:space-between;
   align-items: center;
-  
+  opacity: .9;
 }
 
 .menu {
@@ -342,7 +342,6 @@ section {
   top: 90px;
   left: 5rem;
   z-index: -1;
-  
 }
 
 .splide__slide {
@@ -352,7 +351,6 @@ section {
 
 .splide__slide img {
   width: 100%;
-  opacity: .9;
 }
 
 /* SPINNER */

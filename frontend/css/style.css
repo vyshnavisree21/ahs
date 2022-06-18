@@ -42,7 +42,7 @@ body {
   padding: 1rem 2rem;
   justify-content: center;
   overflow: hidden;
-  opacity: 1;
+ ;
 }
 
 
@@ -65,14 +65,14 @@ z-index:-1;
 header {
   background-color: var(--bg-color);
   box-shadow: var(--header-shadow);
-  opacity: 1;
+ ;
 }
 
 header .container {
   flex-direction: row;
   justify-content:space-between;
   align-items: center;
-  opacity: 1;
+  
 }
 
 .menu {
@@ -88,13 +88,13 @@ header .container {
   height: 100%;
   text-align: center;
   margin: 0 auto 0 35vw;
-  opacity: 1;
+
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
 }
 
 .show-not-connected {
-  opacity: 1;
+ 
   transform: translateY(0);
 }
 
@@ -167,13 +167,13 @@ header .container {
   box-shadow: var(--card-shadow);
   padding: 5rem;
   margin-bottom: 2rem;
-  opacity: 1;
+
   transform: translateX(100vw);
   transition: all 0.5s ease-in-out;
 }
 
 .show-card {
-  opacity: 1;
+
   transform: translateX(0);
 }
 
@@ -358,7 +358,7 @@ section {
   position: absolute;
   top: 50%;
   left: 50%;
-  opacity: 1;
+ 
   transform: translate(-50%, -50%) scale(3);
 }
 

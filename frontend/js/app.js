@@ -27,7 +27,7 @@ window.addEventListener("DOMContentLoaded", async () => {
   const splide = new Splide(".splide", {
     type: "loop",
     arrows: false,
-    perMove: 2,
+    perMove: 4,
     pagination: false,
     autoplay: true,
     direction: 'ttb',

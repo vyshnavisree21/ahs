@@ -27,12 +27,12 @@ window.addEventListener("DOMContentLoaded", async () => {
   const splide = new Splide(".splide", {
     type: "loop",
     arrows: false,
-    perMove: 3,
+    perMove: 2,
     pagination: false,
     autoplay: true,
     direction: 'ttb',
     height: "calc(100vh - 90px)",
-    width: '20vw',
+    width: '15vw',
     autoHeight: true,
   });
   splide.mount();

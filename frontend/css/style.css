@@ -30,11 +30,11 @@ body {
   height: 90vh;
   color: var(--font-color);
   font-family: var(--font-primary);
-  overflow:hidden;
+  
 }
 
 
-.container {
+.container {s
   display: flex;
   flex-direction: column;
   max-width: 960px;

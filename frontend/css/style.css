@@ -10,7 +10,7 @@
   --font-code: "Roboto", monospace;
   --bg-color: #00000000;
   --bg-color-transparent: #01010100;
-  --font-color: #ffffff;
+  --font-color: #ffadad;
   --btn-bg-color: #ffffff;
   --accent-color: #38383d93;
   --header-shadow: var(--accent-color) 0px 0px 5px;
@@ -72,7 +72,7 @@ header .container {
   flex-direction: row;
   justify-content:space-between;
   align-items: center;
-  opacity: 1;
+  opacity: .9;
 }
 
 .menu {
